@@ -49,26 +49,9 @@
 
   <div id="status"></div>
 
-  <script>
-    function build() {
-      const text = document.getElementById("input").value;
-      const status = document.getElementById("status");
-
-      if (!text.trim()) {
-        status.innerText = "❌ Scrie ceva.";
-        return;
-      }
-
-      status.innerText = "🟡 Building application...";
-      setTimeout(() => {
-        status.innerText = "🟢 Validating...";
-      }, 1500);
-
-      setTimeout(() => {
-        status.innerText = "🟢 Application LIVE (simulat).";
-      }, 3000);
-    }
-  </script>
+<script>
+   ...
+</script>
 
 </body>
 </html>
